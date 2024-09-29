@@ -1,12 +1,12 @@
 import React from 'react';
-import {assets} from '../assets/assets'
+import logo from '../assets/logo3.webp'
 
 const Footer = () => {
   return (
     <div>
         <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
             <div>
-                <img src={assets.logo} alt="logo" className='mb-5 w-32'/>
+                <img src={logo} alt="logo" className='mb-5 w-32'/>
                 <p className='w-full md:w-2/3 text-gray-600'>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum explicabo sit distinctio dicta repellendus nostrum?
                 </p>
@@ -23,15 +23,15 @@ const Footer = () => {
             <div>
                 <p className='text-xl font-medium mb-5'>GET IN TOUCH</p>
                 <ul className='flex flex-col gap-1 text-gray-600'>
-                    <li>+91 4789 563 214</li>
-                    <li>shop@happy.com</li>
+                    <li>+91 9876 543 210</li>
+                    <li>shop@fashion.com</li>
                 </ul>
             </div>
         </div>
         <div>
             <hr/>
             <p className='py-5 text-sm text-center'>
-                Copyright 2024@ happy.com - All Rights Reserved
+                Copyright 2024@ fashion.com - All Rights Reserved
             </p>
         </div>
     </div>
