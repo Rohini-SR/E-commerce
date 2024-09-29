@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react';
-import {assets} from '../assets/assets'
+// import {assets} from '../assets/assets'
+import logo from '../assets/logo3.webp'
 import {Link, NavLink} from 'react-router-dom';
 import { FaSearch, FaRegUser } from "react-icons/fa";
 import { IoBagOutline } from "react-icons/io5";
@@ -14,7 +15,7 @@ const Navbar = () => {
    const {setShowSearch, getCartCount} = useContext(ShopContext);
   return (
     <div className='flex items-center justify-between py-5 font-medium'>
-        <Link to='/'><img src={assets.logo} alt='logo' className='w-36'/></Link>
+        <Link to='/'><img src={logo} alt='logo' className='w-20 h-10'/></Link>
         <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
            
            <NavLink to='/' className='flex flex-col items-center gap-1'>
